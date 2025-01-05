@@ -173,9 +173,7 @@
         <button class="button" type="button" @click="$parent.close()">
           {{ $t("operations.cancel") }}
         </button>
-        <button class="button is-primary" @click="handleClickSubmit">
-          {{ $t("operations.save") }}
-        </button>
+
       </div>
     </footer>
   </div>

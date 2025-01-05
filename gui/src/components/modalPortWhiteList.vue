@@ -37,9 +37,7 @@
       <button class="button" @click="$emit('close')">
         {{ $t("operations.cancel") }}
       </button>
-      <button class="button is-primary" @click="handleClickSubmit">
-        {{ $t("operations.save") }}
-      </button>
+
     </footer>
   </div>
 </template>

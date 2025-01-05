@@ -1017,9 +1017,7 @@ ref="socks5_password" v-model="socks5.password" :placeholder="$t('configureServe
       <button class="button" type="button" @click="$parent.close()">
         {{ $t("operations.cancel") }}
       </button>
-      <button class="button is-primary" @click="handleClickSubmit">
-        {{ $t("operations.saveApply") }}
-      </button>
+
     </footer>
   </div>
 </template>
